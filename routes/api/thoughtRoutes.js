@@ -26,7 +26,7 @@ router
   .post(addReaction);
 
 router
-  .route('/:videoId/responses/:responseId')
+  .route('/:thoughtId/reactions/:reactionId')
   .delete(removeReaction);
 
 module.exports = router;
